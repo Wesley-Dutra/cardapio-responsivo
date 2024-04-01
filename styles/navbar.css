@@ -1,0 +1,31 @@
+#navbar {
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px 25px;
+}
+
+#nav-logo {
+    color: #ea7a5a;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+#nav-list {
+    display: flex;
+    list-style: none;
+    gap: 48px;
+}
+
+.nav-item a {
+    text-decoration: none;
+    color: #d18874;
+    font-weight: 600;
+}
+
+.nav-item.active a {
+    border-bottom: 4px solid #e9643f;
+    color: #e37f64;
+    font-weight: 600;
+}
