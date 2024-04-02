@@ -71,3 +71,24 @@ section {
 #banner img {
     width: 40rem;
 }
+
+#shape {
+    position: absolute;
+    right: 10vw;
+    z-index: -1;
+    min-width: 300px;
+    width: 50vw;
+    height: 400px;
+}
+
+#stop1 {
+    stop-color: rgba(199, 163, 56, 0.5);
+}
+
+#stop2 {
+    stop-color: rgba(218, 131, 38, 0.5);
+}
+
+#stop3 {
+    stop-color: rgba(179, 54, 20, 0.5);
+}

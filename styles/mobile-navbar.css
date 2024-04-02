@@ -27,7 +27,7 @@
 }
 
 @media screen and (max-width: 1170px) {
-    #nav-list, #navbar .btn-default {
+    #nav-list, #navbar .btn-default, #banner, #shape {
         display: none;
     }
     
