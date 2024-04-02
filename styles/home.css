@@ -1,0 +1,73 @@
+#home {
+    display: flex;
+    min-height: calc(100vh - 100px);
+    justify-content: center;
+}
+
+section {
+    padding: 28px 8%;
+}
+
+#cta {
+    width: 35%;
+    display: flex;
+    flex-direction: column;
+    gap: 28px;
+    margin-top: 5%;
+}
+
+#cta .title {
+    font-size: 4rem;
+    color: #1d1d1d;
+}
+
+#cta .title span {
+    font-size: 4rem;
+    color: #cfad56;
+}
+
+#cta .description {
+    font-size: 1.2rem;
+    color: #1d1d1d;
+}
+
+#cta-btn {
+    display: flex;
+    gap: 24px;
+}
+
+#carte-btn {
+    background-color: #cfad56;
+}
+
+#cta-btn a {
+    text-decoration: none;
+    color: #1d1d1d;
+}
+
+#phone-btn {
+    display: flex;
+    gap: 8px;
+    align-items: center;
+    background-color: antiquewhite;
+}
+
+#phone-btn:hover {
+    background-color: rgb(221, 207, 189);
+}
+
+#phone-btn:hover > #phone-icon, #carte-btn:hover {
+    background-color: #a0843e;
+    color: antiquewhite;
+    transition: color .2s ease-in;
+}
+
+#phone-icon {
+    background-color: #cfad56;
+    padding: 6px 10px;
+    border-radius: 4px;
+}
+
+#banner img {
+    width: 40rem;
+}

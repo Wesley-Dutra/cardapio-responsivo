@@ -1,0 +1,44 @@
+.social-midia {
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    gap: 20px;
+    font-size: 1.7rem;
+}
+
+.social-midia a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+    padding: 0px 10px;
+    border-radius: 5px;
+    text-decoration: none;
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.5);
+}
+
+.social-midia a:nth-child(odd) {
+    color: #663b2f;
+    background-color: #cc7861;
+}
+
+.social-midia a:nth-child(odd):hover {
+    color: #cc7861;
+    background-color: #663b2f;
+}
+
+.social-midia a:nth-child(even) {
+    color: #947a39;
+    background-color: #cea847;
+}
+
+.social-midia a:nth-child(even):hover {
+    color: #cea847;
+    background-color: #947a39;
+}
+
+p::marker {
+    color: #663b2f;
+    background-color: #947a39;
+}
